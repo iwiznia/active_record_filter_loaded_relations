@@ -13,6 +13,7 @@ require 'active_record_filter_loaded_relations/nodes/less_than_or_equal'
 require 'active_record_filter_loaded_relations/nodes/grouping'
 require 'active_record_filter_loaded_relations/nodes/matches'
 require 'active_record_filter_loaded_relations/nodes/not_matches'
+require 'active_record_filter_loaded_relations/filter'
 
 module ActiveRecordFilterLoadedRelations
 end
