@@ -17,3 +17,9 @@ require 'active_record_filter_loaded_relations/filter'
 
 module ActiveRecordFilterLoadedRelations
 end
+
+class ActiveRecord::Relation
+  def filter_loaded
+    ActiveRecordFilterLoadedRelations::Filter.new(self)
+  end
+end
